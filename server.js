@@ -11,7 +11,8 @@ const passport     = require('passport');
 const MongoStore   = require('connect-mongo')(session);
 var   secretFile         = require('./secrets/secretkeys');
 var fs  = require('fs')
-
+//primitivevaues
+var port= process.env.port||3030;
 var app = express();
 // static files link
 
