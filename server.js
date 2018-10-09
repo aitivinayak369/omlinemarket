@@ -12,7 +12,7 @@ const MongoStore   = require('connect-mongo')(session);
 var   secretFile         = require('./secrets/secretkeys');
 var fs  = require('fs')
 //primitivevaues
-var port =process.env.PORT||3000;
+var port =process.env.PORT||5000;
 var app = express();
 // static files link
 
@@ -30,7 +30,7 @@ var options ={
 }
 
 var server = https.createServer(options,app).listen(port,()=>{
-    console.log('listening at port: 3030',port);
+    console.log('listening at port:',port);
 })
 //session connect-mongo
 
