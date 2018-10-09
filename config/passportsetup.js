@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 //const sec
-const s= require("../secrets/secretkeys")
+const s= require('../secrets/secretkeys');
 //const User;
 
 const passport          = require('passport');
