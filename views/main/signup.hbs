@@ -1,0 +1,57 @@
+
+
+<div class="container-fluid mt-4" >
+<div class="row" >
+    <div class=" card col-md-6 offset-md-3" style="color:gray">
+    <div class="card-body " >
+  <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item" >
+          <a class="nav-link active" data-toggle="tab" href="#signup" style="color:white">Signup</a>
+    </li>
+      <li class="nav-item" >
+          <a class="nav-link " data-toggle="tab" href="#login" style="color:white">Login</a>
+      </li>
+      
+  </ul>
+  <div class="tab-content">
+     
+      <div class="tab-pane active" id="signup">
+        <form action="/" method="POST" class="form-group">
+        <br>
+         <label for="Namebox">Name:</label>
+        <input type="name"  required  class="form-control form-control-lg mb-1" id="Nameboxbox">
+       
+       
+         <label for="emailbox">Email:</label>
+        <input type="email"  required  class="form-control form-control-lg mb-1" id="emailbox">
+      
+        <label for="passwordbox">Password:</label>
+        <input type="password"  required  class="form-control form-control-lg mb-1" id="passwordbox">
+        <input type="submit" class="btn btn-success btn-lg border border-radius-0" value="signup">
+        </form>
+      </div>
+       <div class="tab-pane " id="login">
+        <form action="/auth/local" method="POST" class="form-group">
+        <br>
+         <label for="emailbox">Email:</label>
+        <input type="email" required class="form-control form-control-lg mb-1" id="emailbox">
+      
+        <label for="passwordbox">Password:</label>
+        <input type="password"  required  class="form-control form-control-lg mb-1" id="passwordbox">
+ 
+        <input type="submit" class="btn btn-success btn-lg border border-radius-0" value="Login">
+        <span class="p-4"> <a href="/forgotpassword">Forgot password?</a></span>
+        </form>
+      </div>
+</div>
+</div>
+<div class="card-footer " style="background-color: #ccccb3">
+  <h4 class="ml-auto">or</h4>
+<a href="auth/facebook" style="text-decoration:none"> <button class="btn btn-primary btn-block btn-lg mb-2">Sign in with facebook</button></a>
+    <a href="auth/google" style="text-decoration:none"><button class="btn btn-danger btn-block btn-lg">Sign in with google+</button></a>
+
+</div>
+  </div>
+ 
+  </div>
+</div>

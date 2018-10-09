@@ -1,0 +1,66 @@
+.navbar {
+    min-height: 95px;
+    background: linear-gradient(30deg, #080815 0%, #27272d 16%, #444448 33%, #636364 50%, #858581 66%, #a8a8a0 83%, #ccccc0 100%)
+}
+
+.navbar a{
+
+    color:white;
+    font-size: 0.8em;
+
+}
+.navbar a:hover{
+    color: black;
+}
+
+#searchbutton{
+height:19px;
+width: 24px;
+}
+#input-field{
+    height: 36px;
+    
+}
+#input-group{
+    width:180px;
+}
+
+.carousel-inner img {
+    left:0;
+    top:0;
+    width: 100%;
+  height: 100%;
+}
+.carousel-item {
+    height: 82vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .dash{
+
+    width:25px;
+    height:4px;
+    margin:6px 0px;
+    background-color: white;
+
+  }
+  #hamburgerbutton{
+      border-style: none;
+      border-color: white;
+  }
+  #welcomeText{
+      color:white;
+      
+  }
+  .nav-tabs a{
+      color:black !important;
+  }
+  body{
+      background: linear-gradient(30deg, #8bf998 0%, #73d881 16%, #5cb86b 33%, #469a56 50%, #2f7c42 66%, #195f2e 83%, #00441c 100%);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
