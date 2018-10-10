@@ -29,8 +29,8 @@ passport.use('Local',new localStrategy(
 
  passport.use('facebook',new facebookStrategy(
   {
-    clientID:s.fbKey,
-    clientSecret:s.fbId,
+    clientID:"472735039886157",
+    clientSecret:"f1bf9bc2c4b7c5bfe930d448955dd700",
     callbackURL:'/auth/facebook/callback',
     profileFields:['id','displayName','photos','email'] ,
     passReqToCallback:true,
