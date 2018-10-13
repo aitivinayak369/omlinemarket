@@ -5,7 +5,7 @@ var router = require('express').Router();
 
 router.get('/',(req,res)=>{
 
-res.render('main/home');
+res.render('main/google83b150cd855beae4');
 
 })
 
